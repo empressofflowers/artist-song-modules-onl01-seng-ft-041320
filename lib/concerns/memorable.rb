@@ -14,8 +14,8 @@ module Memorable
   end
 
   module InstanceMethods
-    def initialize(argument)
-      @argument = argument
+    def initialize
+      self.class.all << self
     end
   end
 
