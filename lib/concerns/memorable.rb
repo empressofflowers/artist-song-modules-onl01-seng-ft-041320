@@ -1,5 +1,5 @@
 
-
+#Class methods for Artist and Song
 
 module Memorable
 
