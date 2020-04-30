@@ -13,4 +13,10 @@ module Memorable
     end
   end
 
+  module InstanceMethods
+    def initialize(argument)
+      @argument = argument
+    end
+  end
+
 end
