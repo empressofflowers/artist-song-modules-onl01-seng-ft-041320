@@ -1,7 +1,7 @@
 
 
 module Findable
-  module ClassMethod
+  module InstanceMethods
     def find_by_name name
       all.detect{|a| a.name == name}
     end
