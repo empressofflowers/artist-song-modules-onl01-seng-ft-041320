@@ -1,5 +1,9 @@
 
 
 module Findable
+  module ClassMethod
 
-ends
+    def find_by_name
+    end
+  end
+end
