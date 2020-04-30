@@ -3,7 +3,9 @@
 module Findable
   module ClassMethod
 
-    def find_by_name
+    def find_by_name name
+      @@artists.detect{|a| a.name == name}
     end
+
   end
 end
